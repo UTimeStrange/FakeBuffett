@@ -50,10 +50,6 @@ class BaseAgent(ABC):
                     max_tokens=self.llm_config.get('max_tokens', 2000)
                 )
                 return self._clean_response(response.choices[0].message.content)
-            
-            elif provider == 'hunyuan':
-                return self._clean_response(self._call_hunyuan(messages))
-            
             else:
                 raise ValueError(f"不支持的模型提供商: {provider}")
                 
