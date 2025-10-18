@@ -3,6 +3,7 @@
 
 """
 主程序辅助函数
+created_by: 奇哥AI财经
 """
 
 from typing import Dict, Any

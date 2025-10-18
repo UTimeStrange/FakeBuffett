@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+created_by: 奇哥AI财经
+"""
 from .base_agent import BaseAgent
 from typing import Dict, Any
 from datetime import datetime

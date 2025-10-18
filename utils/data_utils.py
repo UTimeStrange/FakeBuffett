@@ -3,6 +3,7 @@
 
 """
 数据处理工具函数
+created_by: 奇哥AI财经
 """
 
 from typing import Any, Union

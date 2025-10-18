@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+created_by: 奇哥AI财经
+"""
 import tushare as ts
 import pandas as pd
 from datetime import datetime, timedelta
