@@ -1,0 +1,27 @@
+# 配置文件
+api_keys:
+  # Tushare API Key - 请在 https://tushare.pro/ 注册获取
+  tushare_token: "your_tushare_key_here"
+
+#   OpenAI API Key - 如果使用OpenAI模型
+  openai_api_key: "your_openai_api_key_here"
+#   或者其他大模型API Key
+#  zhipu_api_key: "your_zhipu_api_key_here"
+#  qwen_api_key: "your_qwen_api_key_here"
+
+# 大模型配置
+llm_config:
+  provider: "openai"
+  model: "gpt5"
+  temperature: 0.1
+  max_tokens: 32768
+
+# 评分权重配置
+scoring_weights:
+  good_business: 0.35
+  good_company: 0.35
+  good_price: 0.30
+
+# 输出配置
+output_config:
+  results_dir: "results"
